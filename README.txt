@@ -13,3 +13,35 @@ Word length   Points
      6           3
      7           5
      8+         11
+
+SAMPLE RUN:
+
+>>> python boggle.py 
+[S] [E] [T] [T]
+[O] [A] [N] [T]
+[M] [O] [V] [E] 
+[T] [H] [E] [E] 
+
+Start typing your words! (press enter after each word and enter 'X' when done): 
+>>> TEN 
+>>> OVEN 
+>>> MOVE 
+>>> MOVED 
+>>> TEAM 
+>>> TEA 
+>>> AT 
+>>> MATE 
+>>> NAOS 
+>>> TEA 
+>>> X 
+The word TEN is worth 1 point. 
+The word OVEN is worth 1 point. 
+The word MOVE is worth 1 point. 
+The word MOVED is not present. 
+The word TEAM is worth 1 point. 
+The word TEA is worth 1 point. 
+The word AT is too short. 
+The word MATE is worth 1 point. 
+The word NAOS is ... not a word. 
+The word TEA has already been used.
+Your total score is 6 points!
